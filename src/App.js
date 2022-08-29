@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { CountManager, CharacterCounter } from "./react.example-2";
 import "./App.css";
 
 const todos = [
@@ -26,6 +26,8 @@ class App extends Component {
             <li>{todo.body}</li>
           ))}
         </ul>
+
+        <CharacterCounter />
       </>
     );
   }
